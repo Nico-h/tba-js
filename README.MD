@@ -1,1 +1,0 @@
-Run storybook: npm run storybook
