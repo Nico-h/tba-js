@@ -9,3 +9,6 @@ Run the storybook
 `docker run -p 9001:9001 tba-storybook`
 
 Open browser at http://localhost:9001
+
+Note: If you are using Docker Toolbox on Windows 7 or higher, use the Docker Machine IP instead of localhost. For example, http://192.168.99.100:9001.
+To find the IP address, use the command `docker-machine ip`
