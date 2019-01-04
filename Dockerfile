@@ -9,3 +9,5 @@ CMD npm start
 CMD npm run storybook
 
 EXPOSE 9001
+
+VOLUME /var/www/html/tba-js

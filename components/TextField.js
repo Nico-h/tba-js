@@ -36,7 +36,7 @@ class MTextField extends React.Component {
     }
 }
 
-TextField.propTypes = {
+MTextField.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 

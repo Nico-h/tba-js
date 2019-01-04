@@ -10,6 +10,8 @@ import AddGame from '../views/AddGame';
 import Select from '../components/Select';
 import AutoCompleteSelect from '../components/AutoCompleteSelect';
 import DatePicker from '../components/DateTimePicker';
+import Card from '../components/Card';
+import Avatar from '../components/Avatar';
 
 const autoCompleteSuggestions = [
     { label: 'Val 1' },
@@ -19,10 +21,10 @@ const autoCompleteSuggestions = [
 
 storiesOf('Button', module)
     .add('classic', () => (
-        <Button></Button>
+        <Button/>
     ))
     .add('add', () => (
-        <AddButton></AddButton>
+        <AddButton/>
     ));
 
 storiesOf('Menu', module)
@@ -49,6 +51,16 @@ storiesOf('Select', module)
 storiesOf('Picker', module)
     .add('date', () => (
         <DatePicker label="Game Date" gameDate/>
+    ));
+
+storiesOf('Avatar', module)
+    .add('round', () => (
+        <Avatar classeName="avatar"/>
+    ));
+
+storiesOf('Card', module)
+    .add('card', () => (
+        <Card/>
     ));
 
 storiesOf('Pages', module)

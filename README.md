@@ -6,7 +6,7 @@ Go to project folder and launch the docker container
 
 Run the storybook
 
-`docker run -p 9001:9001 tba-storybook`
+`docker run -p 9001:9001 --name tba-storybook tba-storybook`
 
 Open browser at http://localhost:9001
 
